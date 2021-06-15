@@ -110,7 +110,7 @@ text-align: justify;
 #house-image-container {
     display: flex;
     justify-content: center;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
 }
 
 #servizi-container {
@@ -130,3 +130,15 @@ text-align: justify;
     display: flex;
     flex-direction: column;
     text-align: center;}
+
+#graphic-image-container {
+    margin-top: 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+img {
+border-radius: 20px;
+border-style: solid;
+}
