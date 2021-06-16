@@ -138,7 +138,236 @@ text-align: justify;
     justify-content: center;
     margin-bottom: 50px;
 }
+
+#graphic-image-container img:not(:hover) {
+    
+    transition:  0.9s ease-in-out;
+}
+
+#graphic-image-container img:hover {
+    
+    width: 700px;
+    height: 500px;
+    transition:  0.9s ease-in-out;
+}
+
 img {
 border-radius: 20px;
-border-style: solid;
+border-style:groove;
+border-color: rgb(200, 184, 184);
+width: 600px; 
+height: 400px;
+
+
 }
+
+
+#flats-photographs-container img {
+    width: 45%;
+    height: 40%;
+    display: inline;
+    border-radius: 0;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#flats-photographs-container img:hover {
+    width:50%;
+    height: 40%;
+    transition: 0.9s ease-in-out;
+    margin:0;
+    opacity: 1;
+}
+#flats-photographs-container img:not(:hover) {
+    transition: 0.9s ease-in-out;
+}
+
+
+#img1 {
+    display: flex;
+    justify-content: center;
+}
+
+#img1 img {
+    width: 500px;
+}
+
+#img1 img:hover {
+    width: 600px;
+}
+
+#img2 {
+    display: flex;
+    justify-content: center;
+}
+
+#img2 img {
+    width: 500px;
+}
+
+#img2 img:hover {
+    width: 600px;
+}
+
+#img3 {
+    display: flex;
+    justify-content: center;
+}
+
+#img3 img {
+    width: 500px;
+}
+
+#img3 img:hover {
+    width: 600px;
+}
+
+#img4 {
+    display: flex;
+    justify-content: center;
+}
+
+#img4 img {
+    width: 500px;
+}
+
+#img4 img:hover {
+    width: 600px;
+}
+
+#img5 {
+    display: flex;
+    justify-content: center;
+}
+
+#img5 img {
+    width: 500px;
+}
+
+#img5 img:hover {
+    width: 600px;
+}
+
+
+#img6 {
+    display: flex;
+    justify-content: center;
+}
+
+#img6 img {
+    width: 500px;
+}
+
+#img6 img:hover {
+    width: 600px;
+}
+
+
+#img7 {
+    display: flex;
+    justify-content: center;
+}
+
+#img7 img {
+    width: 500px;
+}
+
+#img7 img:hover {
+    width: 600px;
+}
+
+
+#img8 {
+    display: flex;
+    justify-content: center;
+}
+
+#img8 img {
+    width: 470px;
+    height: 570px;
+}
+
+#img8 img:hover {
+    width: 520px;
+    height: 620px;
+}
+
+#img9 {
+    display: flex;
+    justify-content: center;
+}
+
+#img9 img {
+    width: 500px;
+    height: 600px;
+}
+
+#img9 img:hover {
+    width: 550px;
+    height: 650px;
+}
+
+#img10 {
+    display: flex;
+    justify-content: center;
+}
+
+#img10 img {
+    width: 600px;
+
+}
+
+#img10 img:hover {
+    width: 700px;
+}
+
+#img11 {
+    display: flex;
+    justify-content: center;
+}
+#img11 img {
+    width: 450px;
+    height: 600px;
+}
+
+#img11 img:hover {
+    width: 500px;
+    height: 680px;
+}
+
+
+/*You have to fix your site fot mobile phones*/
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 200px) {
+    #flats-photographs-container {
+        width:100%;
+        height: auto;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    #flats-photographs-container div {
+        display: flex;
+        justify-content: center;
+    }
+
+    #flats-photographs-container img:hover {
+        width:95%;
+        transition: 0.9s ease-in-out;
+        margin:0;
+        opacity: 1;
+    }
+    
+  }
+
