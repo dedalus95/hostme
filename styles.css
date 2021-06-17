@@ -1,7 +1,9 @@
 
 html {
-    background-color: rgb(0, 183,183);
+    /*background-color: rgb(0, 183,183);*/
+    background-color: beige;
     font-family: monospace;
+    color: rgb(83, 62, 62);
 }
 header {
     z-index: 2;
@@ -188,6 +190,10 @@ height: 400px;
 
 }
 
+#flats-photographs-container {
+    margin-bottom: 150px;
+}
+
 #flats-photographs-container div {
     
     display: flex;
@@ -195,6 +201,27 @@ height: 400px;
     margin: 30px;
 }
 
+#collaboriamo-con {
+    display: flex;
+    justify-content: center;
+   
+}
+
+#logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:  center;
+    background-color: white;
+    margin-top: 80px;
+}
+
+#logo-container img {
+   
+    width: 130px;
+    height: 50px;
+    border: none;
+    margin: 15px;
+}
 /*#flats-photographs-container img:hover {
     width:50%;
     height: 40%;
