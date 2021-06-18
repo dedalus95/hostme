@@ -1,7 +1,7 @@
 
 html {
-    /*background-color: rgb(0, 183,183);*/
-    background-color: beige;
+    background-color: rgb(0, 183,183);
+    /*background-color: beige;*/
     font-family: monospace;
     color: rgb(83, 62, 62);
 }
@@ -144,6 +144,11 @@ text-align: justify;
 #graphic-image-container img:not(:hover) {
     
     transition:  0.9s ease-in-out;
+}
+
+#bottom-container {
+    display: flex;
+    flex-direction: row;
 }
 
 /*#graphic-image-container img:hover {
