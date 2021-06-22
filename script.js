@@ -56,3 +56,37 @@ function getBigger1(e) {
     }
 
     window.addEventListener('scroll', debounce(getBigger1));
+
+// function that makes telephone number appear and disappear
+    let whatsappButton = document.querySelector('#whatsapp-button');
+    
+    let telephone = document.getElementById('#telephone') 
+
+    function showNumber() {
+       
+     if (!telephone.classList.contains('telephone-in'))
+     {telephone.classList.add('telephone-in');
+    } else {
+         telephone.classList.remove('telephone-in');
+     }
+
+    }
+   whatsappButton.addEventListener('click', showNumber);
+
+   //function that makes side navbar appear and disappear
+  
+   let menuButton = document.querySelector('#navbar-button');
+    
+   let menu = document.getElementById('#menu') 
+
+   function showMenu() {
+      
+    if (!menu.classList.contains('side-navbar-active'))
+    {menu.classList.add('side-navbar-active');
+   } else {
+        menu.classList.remove('side-navbar-active');
+    }
+
+   }
+  menuButton.addEventListener('click', showMenu);
+ 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang = 'it'>
     <head>
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -8,19 +8,23 @@
         </title>
     </head>
     <body>
+    <nav>
+    <ul id = '#menu'  class= 'side-navbar'>
+    <li><a  href='#chi-siamo'>Chi siamo</a></li>
+    <li><a href='#servizi-container'>Servizi</a></li>
+    <li><a href="#perche-noi-container">Perché noi?</a></li>
+    <li><a href='#flats-photographs-container'>Portfolio</a></li>
+    <li><a href='#contatti'>Contatti</a></li>
+     </ul>
+
+</nav>
 <header>
 <div id = 'host-me-wrapper'>
         <h1 id = 'host-me-logo'>SPRIPPY ROME</h1> 
 </div>
-<nav>
-        <ul>
-        <li><a href='#chi-siamo'>Chi siamo</a></li>
-        <li><a href='#servizi-container'>Servizi</a></li>
-        <li><a href="#perche-noi-container">Perché noi?</a></li>
-        <li><a href='#flats-photographs-container'>Portfolio</a></li>
-        <li><a href='#chi-siamo'>Contatti</a></li>
-         </ul>
-</nav>
+<div  style="display: flex; justify-content: flex-end; background-color: red; width: 50%;">
+<button id = 'navbar-button' class="fa fa-bars" style = 'margin-right: 30px; color: white; border:none; background-color: black; cursor: pointer;'></button>
+</div>
 </header>
 <div id = 'home-title-wrapper'>
     <h1>IL NUOVO MODO DI OSPITARE FACILE!</h1>
@@ -29,9 +33,16 @@
 <button id = 'inizia'>INIZIA</button>
 </div>
 <div id = 'social-buttons'>
-    <a target = '_blank' href = 'https://www.facebook.com/hostmebnb' style = 'margin-right: 8px;' class = 'fa fa-facebook'></a>
-    <a target = '_blank' href = 'https://www.instagram.com/hostmebnb/' class = 'fa fa-instagram'></a>
-    <i class = 'fa fa-whatsapp'>331 188 07 02</i>
+    <div style="margin-bottom: 5px;">
+    <a style="color: rgb(66,103,178); margin-right: 8px;" target = '_blank' href = 'https://www.facebook.com/hostmebnb'  class = 'fa fa-facebook'></a>
+</div>
+<div style=" margin-bottom: 5px;">
+    <a style="color:rgb(225,48,108);"  target = '_blank' href = 'https://www.instagram.com/hostmebnb/' class = 'fa fa-instagram'></a>
+</div>
+<div style="display: flex; flex-direction: column;">
+    <a id = 'whatsapp-button' style="color:rgb(37,211,102); cursor: pointer;"  class = 'fa fa-whatsapp'></a>
+    <p id = '#telephone' style="color: rgb(37,211,102)" class="telephone-out" >331 188 07 02</p>
+</div>
 </div>
 
 
@@ -100,7 +111,7 @@
         </div>
         <p style="padding-left: 20%; padding-right: 20%; text-align: justify; font-size: 20px; margin-top: 0px; margin-bottom: 50px;">Controlli periodici e manutenzione ordinaria permetteranno al tuo alloggio di essere sempre competitivo e al meglio per i tuoi ospiti.</p>
 
-    </div>
+    
     <div style = 'display: flex; flex-direction: column; text-align: center;'>
     <i class='fa fa-money fa-3x' style="height: 30px; margin-top: 100px; margin-bottom: 10px; "></i>
     <h1 style="text-align: center; font-size: 40px;">TRASFORMIAMO LA TUA CASA IN UNA FONTE DI REDDITO SICURA.
@@ -138,7 +149,7 @@
 <img class="get-bigger" src="sangiovanni4.jpeg" alt="San Giovanni - Living">
 </div>
 <div id = 'img5'>
-<img class="get-bigger" src="sangiovanni 5.jpeg" alt="San Giovanni - Bathroom">
+<img class="get-bigger" src="sangiovanni5.jpeg" alt="San Giovanni - Bathroom">
 </div>
 <div id = 'img6'>
 <img class="get-bigger" src="cernaia1.jpeg" alt="Cernaia - Living">
@@ -150,7 +161,7 @@
 <img class="get-bigger" src="cernaia2.jpeg" alt="Cernaia - Living">
 </div>
 <div id = 'img9'>
-<img class = 'get-bigger-1'src="trastevere2.jpeg" alt="Trastevere - Bedroom">
+<img class = 'get-bigger-1' src="trastevere2.jpeg" alt="Trastevere - Bedroom">
 </div>
 <div id = 'img10'>
 <img class="get-bigger"  src="piazzanavona1.jpeg" alt="Piazza Navona - Living">
@@ -158,7 +169,7 @@
 <div id = 'img11'>
 <img class="get-bigger-1" src="trastevere1.jpeg" alt="Trastevere - Living">
 </div>
-</div>
+
 </div>
 <div id = '#collaboriamo-con' style="background-color: white;">
 <h1 style="background-color: white; text-align: center;">Collaboriamo con</h1>
@@ -205,8 +216,8 @@
     Un giovane team frizzante ed affiatato pronto a farsi conoscere ed accompagnarti nel mondo degli affitti a breve termine. Una passione che diventa un lavoro.
 </p>
 </div>
-<div style="background-color: green; width: 20%; height: 400px; display: flex; flex-direction: column; justify-content: center">
-<h1 style="text-align: center;">CONTATTI</h1>
+<div  style="background-color: green; width: 20%; height: 400px; display: flex; flex-direction: column; justify-content: center">
+<h1 id = '#contatti' style="text-align: center;">CONTATTI</h1>
 <p style="text-align: center;">Phone: +39 380 901 0234</p>
 <p style="text-align: center;">Email: info@h-me.it</p>
 <div style= "margin-top: 40px; display: flex; flex-direction: row; justify-content: center">
@@ -231,14 +242,14 @@
                   E-mail: 	
                 </td>			
                 <td>				
-                 <input type=”Text” name=”E-mail” placeholder="E-mail">			
+                 <input type=”text” name=”E-mail” placeholder="E-mail">			
                 </td>		
           </tr>	
           <tr>
             <td>				
             </td>			
             <td>				
-             <input style="height: 100px;" type=”text” name=”Messaggio” placeholder="Messaggio">			
+             <input style="height: 100px;" type = ”text” name=”Messaggio” placeholder="Messaggio">			
             </td>		
       </tr>	
     </table>
