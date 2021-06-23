@@ -45,6 +45,7 @@ function getBigger1(e) {
     const imageBottom = biggerImage1.offsetTop + biggerImage1.height;
     const isHalfShown = getBiggerAt > biggerImage1.offsetTop;
     const isNotScrolledPast = window.scrollY < imageBottom;
+    console.log(isNotScrolledPast);
     
     if (isHalfShown && isNotScrolledPast) {
         biggerImage1.classList.add('active-1');
@@ -79,14 +80,60 @@ function getBigger1(e) {
     
    let menu = document.getElementById('#menu') 
 
+   let stopScrolling = document.querySelector('body');
    function showMenu() {
       
     if (!menu.classList.contains('side-navbar-active'))
-    {menu.classList.add('side-navbar-active');
-   } else {
+    {
+        menu.classList.add('side-navbar-active');
+   }
+  
+   
+   else {
         menu.classList.remove('side-navbar-active');
+    
+    }
+    if (
+        menu.classList.contains('side-navbar-active')
+    ) 
+  
+    {   
+        menuButton.classList.remove('fa-bars');
+        menuButton.classList.add('fa-times');
+        stopScrolling.classList.add('stop-scrolling');
+       
     }
 
+    else {
+        menuButton.classList.remove('fa-times');
+        menuButton.classList.add('fa-bars');
+        stopScrolling.classList.remove('stop-scrolling');
+    }
+
+    
    }
   menuButton.addEventListener('click', showMenu);
  
+
+
+  let para = document.querySelectorAll('.sliding-para');
+
+
+function slidingPara(e) {
+    // console.log(window.scrollY);
+    para.forEach(par => {
+    const slideAt = (window.scrollY + window.innerHeight)
+    const paraBottom = par.offsetTop + par.clientHeight;
+    const isHalfShown = slideAt > par.offsetTop;
+    const isNotScrolledPast = window.scrollY < paraBottom;    
+    if (isHalfShown && isNotScrolledPast) {
+        par.classList.add('active-para');
+    } else {
+        par.classList.remove('active-para');
+    
+    }
+    });
+    }
+
+
+    window.addEventListener('scroll', debounce(slidingPara));

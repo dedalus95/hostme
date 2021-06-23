@@ -2,140 +2,173 @@
 <html lang = 'it'>
     <head>
         <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=B612&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
         <title>
             Host Me
         </title>
     </head>
     <body>
+    <div id = '#menu'  class= 'side-navbar'>
     <nav>
-    <ul id = '#menu'  class= 'side-navbar'>
-    <li><a  href='#chi-siamo'>Chi siamo</a></li>
+    <ul >
+    <li><a  href='#chi-siamo-title'>Chi siamo</a></li>
     <li><a href='#servizi-container'>Servizi</a></li>
     <li><a href="#perche-noi-container">Perché noi?</a></li>
     <li><a href='#flats-photographs-container'>Portfolio</a></li>
     <li><a href='#contatti'>Contatti</a></li>
      </ul>
+    </div>
+    </div>
 
 </nav>
-<header>
+<header >
 <div id = 'host-me-wrapper'>
-        <h1 id = 'host-me-logo'>SPRIPPY ROME</h1> 
+        <h1 style=" font-size: smaller;  margin-bottom: 0.5em; margin-left: 20px;color: lightcoral" id = 'host-me-logo'>SPRIPPY ROME</h1> 
 </div>
-<div  style="display: flex; justify-content: flex-end; background-color: red; width: 50%;">
-<button id = 'navbar-button' class="fa fa-bars" style = 'margin-right: 30px; color: white; border:none; background-color: black; cursor: pointer;'></button>
+<div  style="display: flex; flex-direction: row; justify-content: flex-end; width: 50%;">
+<button id = 'navbar-button' class="fa fa-bars" style = ' color:lightcoral; background-color: rgb(49, 9, 141);; border:none; cursor: pointer; margin-right: 20px; '></button>
 </div>
 </header>
 <div id = 'home-title-wrapper'>
-    <h1>IL NUOVO MODO DI OSPITARE FACILE!</h1>
+    <h1 id = 'home-h1'>IL NUOVO MODO DI OSPITARE <span style="color: lightcoral;">FACILE</span></spanFACILE>!</h1>
 </div>
-<div style="display: flex; justify-content: center;">
-<button id = 'inizia'>INIZIA</button>
+<div id = 'inizia-button' style="display: flex; justify-content: center;">
+    <form method = 'get' action="#chi-siamo">
+<button type="submit" id = 'inizia'>INIZIA</button>
+    </form>
 </div>
 <div id = 'social-buttons'>
     <div style="margin-bottom: 5px;">
-    <a style="color: rgb(66,103,178); margin-right: 8px;" target = '_blank' href = 'https://www.facebook.com/hostmebnb'  class = 'fa fa-facebook'></a>
+    <a id = 'facebook-button' style="color: rgb(66,103,178); margin-right: 8px;" target = '_blank' href = 'https://www.facebook.com/hostmebnb'  class = 'fa fa-facebook'></a>
 </div>
+<hr style="border-width: 1px; width: 10px; margin-left: 0;">
 <div style=" margin-bottom: 5px;">
     <a style="color:rgb(225,48,108);"  target = '_blank' href = 'https://www.instagram.com/hostmebnb/' class = 'fa fa-instagram'></a>
 </div>
+<hr style="border-width: 1px; width: 10px; margin-left: 0;">
 <div style="display: flex; flex-direction: column;">
-    <a id = 'whatsapp-button' style="color:rgb(37,211,102); cursor: pointer;"  class = 'fa fa-whatsapp'></a>
-    <p id = '#telephone' style="color: rgb(37,211,102)" class="telephone-out" >331 188 07 02</p>
+    <a id = 'whatsapp-button' style="color:rgb(37,211,102); cursor: pointer; margin-bottom: 10px;"  class = 'fa fa-whatsapp'></a>
+    <p id = '#telephone' style="font-size: 15px; color: rgb(49, 9, 141)" class="telephone-out" >+39 380 901 0234</p>
 </div>
 </div>
 
 
 <div id = 'chi-siamo'>
     <div id = 'chi-siamo-title'>
-    <h1>CHI SIAMO</h1>
+    <h1 style="color: lightcoral;">CHI SIAMO</h1>
     </div>
-    <div id = 'para-chi-siamo'>
-        <p >A piccoli passi HostMe inizia la sua avventura da un super team formato da esperti con pluriennale esperienza nel settore degli affitti brevi su Roma.
-        HostMe nasce proprio dal bisogno di curare quei minimi particolari che fanno si che qualsiasi soggiorno sia un momento magico e pieno di ricordi positivi. Se è tutto perfetto allora noi siamo soddisfatti.
-        
-        Un ospitalità  e un servizio di pulizia impeccabili , contribuiscono a farti avere recensioni sempre eccellenti , degni del miglior Super-Host, aumentando la domanda ed incementando i tuoi incassi. I nostri punti di forza sono:
-        
-         Pulizia accurata dell'immobile ad ogni in/out e manutenzione periodica.
-         Assistenza h24 dell' ospite per tutta la durata del soggiorno.
-         Massima visibilità  e gestione dinamica delle tariffe</p>
+    <div style="width: 100%; display: flex; ; justify-content: center;">
+        <p class = 'sliding-para' style="margin-top: 70px;">A piccoli passi, HostMe inizia la sua avventura grazie a un super team formato da esperti con esperienza pluriennale nel settore degli affitti brevi.
+        HostMe nasce proprio dal bisogno di curare quei minimi particolari che fanno sì che qualsiasi soggiorno sia un momento magico e pieno di ricordi positivi. Siamo soddisfatti soltanto se tutto funziona perfettamente.
+        <br> <br>
+        Un ospitalità e un servizio di pulizia impeccabili contribuiscono a farti ottenere delle recensioni sempre eccellenti, degne del miglior Super-Host, aumentando la domanda ed incementando i tuoi incassi. <br>  <br>I nostri punti di forza sono:
+       <br>
+       
+         - Pulizia accurata dell'immobile ad ogni in/out e manutenzione periodica. <br>
+         - Assistenza h24 dell' ospite per tutta la durata del soggiorno. <br>
+         - Massima visibilità  e gestione dinamica delle tariffe</p>
     </div>
-</div>
+    </div>
+
 
 
 <div id = 'servizi-container'>
-<h1 style="margin-bottom: 70px; background-color: green;">SERVIZI</h1>
+<h1 style="margin-bottom: 70px; color: lightcoral;">SERVIZI</h1>
 <i class='fa fa-usd fa-3x' style="height: 30px; margin-bottom: 10px;"></i>
 <h2>Prezzi dinamici</h2>
-<p style= 'margin-bottom: 60px;'>
+
+<p class = 'sliding-para' style= 'margin-bottom: 60px;'>
     La nostra costante supervisione garantisce i migliori prezzi in base al periodo e alla disponibilità.
 </p>
+
 <i class='fa fa-handshake-o fa-3x' style="height: 30px; margin-bottom: 10px;"></i>
 <h2>Accoglienza ospiti</h2>
-<p style="margin-bottom: 60px;">Check-in presso l'immobile con consegna chiavi. Assistenza h24 per tutta la durata del soggiorno.</p>
+
+<p class = 'sliding-para' style="margin-bottom: 60px;">Check-in presso l'immobile con consegna chiavi. Assistenza h24 per tutta la durata del soggiorno.</p>
 <i class='fa fa-exchange fa-3x' style="height: 30px; margin-bottom: 10px;"></i>
+
 <h2>Pulizie e Biancheria
     </h2>
-    <p style= 'margin-bottom: 60px;'>Servizio completo di gestione e cambio biancheria compreso di kit benvenuto.</p>
+ 
+    <p class = 'sliding-para' style= 'margin-bottom: 60px;'>Servizio completo di gestione e cambio biancheria compreso di kit benvenuto.</p>
     <i class='fa fa-gavel fa-3x' style="height: 30px; margin-bottom: 10px;"></i>
+ 
     <h2>Gestione dell' Immobile</h2>
-    <p style= 'margin-bottom: 60px;'>Monitoraggio continuo dell' immobile con interventi periodici e costanti per ottenere massime recensioni possibili.</p>
+    
+    <p class = 'sliding-para' style= 'margin-bottom: 60px;'>Monitoraggio continuo dell' immobile con interventi periodici e costanti per ottenere massime recensioni possibili.</p>
     <i class='fa fa-book fa-3x' style="height: 30px; margin-bottom: 10px;"></i>
+
     <h2>Gestione Burocratica</h2>
-    <p style= 'margin-bottom: 60px;'>Comunicazioni dati ospiti alla Polizia di Stato, riscossione e versamento tasse di soggiorno e adempimenti normativi.</p>
+   
+    <p class = 'sliding-para' style= 'margin-bottom: 60px;'>Comunicazioni dati ospiti alla Polizia di Stato, riscossione e versamento tasse di soggiorno e adempimenti normativi.</p>
     <i class='fa fa-camera fa-3x' style="height: 30px; margin-bottom: 10px;"></i>
     <h2>Servizio Fotografico</h2>
-    <p>Valorizziamo il più possibile ogni appartamento con shooting fotografico professionale.</p>
+   
+    <p class = 'sliding-para'>Valorizziamo il più possibile ogni appartamento con shooting fotografico professionale.</p>
+    </div>
 
-</div>
 <div id = 'perche-noi-container'>
-    <h1 style="margin-bottom: 70px; background-color: green;">PERCHÉ NOI?</h1>
-    <h2 style="padding-left: 20%; padding-right: 20%; text-align:justify; margin-bottom: 100px; ">HostMe è l'agenzia di gestione Case Vacanze a Roma che fa per te. Goditi il tuo tempo libero, al resto pensiamo noi.</h2>
-    <div>
+    <h1 style="margin-bottom: 70px; color: lightcoral;">PERCHÉ NOI?</h1>
+    <div style="align-self: center; width: 600px;">
+    <h2 style="margin-left: 100px;; margin-right: 100px; text-align:left; margin-bottom: 100px; ">HostMe è l'agenzia di gestione Case Vacanze a Roma che fa per te. <br> Goditi il tuo tempo libero, al resto pensiamo noi.</h2>
+    </div>
+    <div style="width: 600px; align-self: center;">
     <i class='fa fa-wrench fa-3x' style="height: 30px; margin-bottom: 10px;"></i>
     <h1 style="font-size: 40px; margin-bottom: 100px;">GESTIONE COMPLETA DEL TUO IMMOBILE</h1>
     </div>
 <div style="display: flex; flex-direction: row; justify-content: center;">
 <i class='fa fa-search fa-3x' style="height: 30px; margin-bottom: 10px; margin-right: 15px;"></i>
-<h1>Massima attenzione ai dettagli</h1>
+<h1 style="margin-top: 10px;">Massima attenzione ai dettagli</h1>
 </div>
-<p style="padding-left: 20%; padding-right: 20%; text-align: justify; font-size: 20px; margin-top: 0px; margin-bottom: 40px;">Elevati standard ed attenzione al dettaglio sono le caratteristiche del nostro team di Cleaner che assicurano agli ospiti soggiorni ed esperienze a cinque stelle. Cio' si traduce in ottime recensioni per te e per il tuo appartamento.</p>
+
+<p class = 'sliding-para' style="padding-left: 20%; padding-right: 20%; text-align: justify; font-size: 20px; margin-top: 0px; margin-bottom: 40px;">Elevati standard ed attenzione al dettaglio sono le caratteristiche del nostro team di Cleaner che assicurano agli ospiti soggiorni ed esperienze a cinque stelle. Cio' si traduce in ottime recensioni per te e per il tuo appartamento.</p>
+
 <div style="display: flex; flex-direction: row; justify-content: center;">
     <i class='fa fa-laptop fa-3x' style="height: 30px; margin-bottom: 10px; margin-right: 15px;"></i>
-    <h1>Aggiornamento tariffe</h1>
+    <h1 style="margin-top: 10px;">Aggiornamento tariffe</h1>
     </div>
-    <p style="padding-left: 20%; padding-right: 20%; text-align: justify; font-size: 20px; margin-top: 0px; margin-bottom: 40px;">HostMe cerca di garantire il più alto tasso di riempimento possibile del tuo immobile, lasciandoti libero di godere dei proventi del tuo affitto a breve termine senza che tu debba intervenire in alcun modo.</p>
+   
+    <p class = 'sliding-para' style="padding-left: 20%; padding-right: 20%; text-align: justify; font-size: 20px; margin-top: 0px; margin-bottom: 40px;">HostMe cerca di garantire il più alto tasso di riempimento possibile del tuo immobile, lasciandoti libero di godere dei proventi del tuo affitto a breve termine senza che tu debba intervenire in alcun modo.</p>
+ 
     <div style="display: flex; flex-direction: row; justify-content: center;">
         <i class='fa fa-lock fa-3x' style="height: 30px;margin-right: 15px;"></i>
-        <h1>Maggiore sicurezza</h1>
+        <h1 style="margin-top: 10px;">Maggiore sicurezza</h1>
         </div>
-        <p style="padding-left: 20%; padding-right: 20%; text-align: justify; font-size: 20px; margin-top: 0px; margin-bottom: 50px;">Controlli periodici e manutenzione ordinaria permetteranno al tuo alloggio di essere sempre competitivo e al meglio per i tuoi ospiti.</p>
+     
+        <p class = 'sliding-para' style="padding-left: 20%; padding-right: 20%; text-align: justify; font-size: 20px; margin-top: 0px; margin-bottom: 50px;">Controlli periodici e manutenzione ordinaria permetteranno al tuo alloggio di essere sempre competitivo e al meglio per i tuoi ospiti.</p>
+   
 
     
-    <div style = 'display: flex; flex-direction: column; text-align: center;'>
+    <div style = 'display: flex; flex-direction: column; text-align: center; width: 600px; align-self: center;'>
     <i class='fa fa-money fa-3x' style="height: 30px; margin-top: 100px; margin-bottom: 10px; "></i>
-    <h1 style="text-align: center; font-size: 40px;">TRASFORMIAMO LA TUA CASA IN UNA FONTE DI REDDITO SICURA.
+    <h1 style="text-align: center; font-size: 40px; ">TRASFORMIAMO LA TUA CASA IN UNA FONTE DI REDDITO SICURA.
     </h1>
 </div>
-    <p style = "padding-left: 20%; padding-right: 20%; text-align: justify; font-size: 20px; margin-top: 0px; margin-bottom: 50px;">Possiamo aiutarti in tutte le fasi. Dal disbrigo delle pratiche burocratiche al sito web, dall' arredo fino alla completa gestione per tuo conto.
+
+    <p class = 'sliding-para' style = "padding-left: 20%; padding-right: 20%; text-align: justify; font-size: 20px; margin-top: 0px; margin-bottom: 50px;">Possiamo aiutarti in tutte le fasi. Dal disbrigo delle pratiche burocratiche al sito web, dall' arredo fino alla completa gestione per tuo conto.
 
         Il nostro sistema di variazione dei prezzi piu' volte al giorno garantisce un calendario pieno e in linea con la domanda.</p>
+
     <div id = 'graphic-image-container'>
         <img class='get-bigger' src="grafico1.png" alt="Grafico">
         </div>
-        <div style = 'display: flex; flex-direction: column; text-align: center;'>
+        <div style = 'display: flex; flex-direction: column; text-align: center; align-self: center; width: 600px;'>
             <h1 style="text-align: center; font-size: 40px;">GUADAGNA DAVVERO CON IL TUO APPARTAMENTO E AFFIDATI A <u>NOI</u> SENZA PENSIERI.
             </h1>
         </div>
-            <p style = "padding-left: 20%; padding-right: 20%; text-align: justify; font-size: 20px; margin-top: 0px; margin-bottom: 50px;">Possiamo aiutarti in tutte le fasi. Dal disbrigo delle pratiche burocratiche al sito web, dall' arredo fino alla completa gestione per tuo conto.
+        
+            <p class = 'sliding-para' style = "padding-left: 20%; padding-right: 20%; text-align: justify; font-size: 20px; margin-top: 0px; margin-bottom: 50px;">Possiamo aiutarti in tutte le fasi. Dal disbrigo delle pratiche burocratiche al sito web, dall' arredo fino alla completa gestione per tuo conto.
         
                 Il nostro sistema di variazione dei prezzi piu' volte al giorno garantisce un calendario pieno e in linea con la domanda.</p>
+        </div>
         
-</div>
+
 
 
 <div id = 'flats-photographs-container' style= 'background-color: white;'>
-<h1 style="margin-top: 100px; margin-bottom: 70px; background-color: green; text-align: center;">PORTFOLIO CASE</h1>
+<h1 style="margin-top: 100px; margin-bottom: 70px; text-align: center; color: lightcoral;">PORTFOLIO CASE</h1>
 <div id = 'img1'>
 <img class="get-bigger" src="sangiovanni1.jpeg" alt="San Giovanni - Bedroom">
 </div>
@@ -173,7 +206,7 @@
 </div>
 <div id = '#collaboriamo-con' style="background-color: white;">
 <h1 style="background-color: white; text-align: center;">Collaboriamo con</h1>
-<div id = 'logo-container' style="background-color: white;">
+<div id = 'logo-container' class="sliding-para" style="background-color: white; width:100%;">
     <div>
         <img src="airBnb.png" alt="Airbnb">
     </div>
@@ -193,10 +226,11 @@
 </div>
 
 <div id = 'tariffa'>
-<h1 style="position: relative; top: 150px; text-align: center;">Tariffa tutto incluso</h1>
-<p style=" margin: 100px; font-size: 25px; position: relative; top: 120px; text-align: center;">Approfitta subito della nostra offerta. Massima trasparenza per tutta la durata della collaborazione.</p>
-
-<div style="background-color: white; height: 250px; width: 180px; align-self: center; position: relative; top: 150px; display: flex; justify-content: center; flex-direction: column;">
+    <div style="width: 600px;  display: flex; flex-direction: column; justify-content: center; align-self: center; margin-bottom: 50px;">
+<h1 style="align-self: center;">Tariffa tutto incluso</h1>
+<p style="font-size: 25px; text-align:center;  ">Approfitta subito della nostra offerta. Massima trasparenza per tutta la durata della collaborazione.</p>
+    </div>
+<div style=" border: groove; border-color: rgb(49, 9, 141); background-color:  lightcoral; height: 250px; width: 180px; display: flex; justify-content: center; flex-direction: column; align-self: center;">
     <h3 style="position: relative; top:35px; align-self: center;">25%/NOTTE</h3>
     <h4 style="position: relative; top:15px; align-self: center;">Regular plan</h4>
     <p style="position: relative; bottom: 15px; align-self: center;">Check-in/out</p>
@@ -208,15 +242,19 @@
 
 <div id = 'bottom-container'>
 
-<div style="background-color: red; width: 40%; height: 400px; display: flex; flex-direction: column; justify-content: center;">
+<div style="color: white; background-color: darkslategray; width: 33.33333%; height: 400px; display: flex; justify-content: center;">
+    <div id = 'hostme-bottom'style=" width: 200px; text-align: center; margin-top: 81px;">
 <h1 style="text-align: center;">
     HOSTME
 </h1>
+
 <p style="text-align: center;">
     Un giovane team frizzante ed affiatato pronto a farsi conoscere ed accompagnarti nel mondo degli affitti a breve termine. Una passione che diventa un lavoro.
 </p>
 </div>
-<div  style="background-color: green; width: 20%; height: 400px; display: flex; flex-direction: column; justify-content: center">
+</div>
+
+<div  style="color: white; background-color: darkslategray; width: 33.33333%; height: 400px; display: flex; flex-direction: column; justify-content: center">
 <h1 id = '#contatti' style="text-align: center;">CONTATTI</h1>
 <p style="text-align: center;">Phone: +39 380 901 0234</p>
 <p style="text-align: center;">Email: info@h-me.it</p>
@@ -225,13 +263,13 @@
 <a target = '_blank' href = 'https://www.instagram.com/hostmebnb/' class = 'fa fa-instagram'></a>
 </div>
 </div>
-<div style="background-color: blue; width: 40%; height: 400px;">
-<h1 style="text-align: center; color: white; margin-top: 100px;">COMPILA IL FORM PER UN APPUNTAMENTO</h1>
+<div style="background-color: darkslategray; width: 33.33333%; height: 400px;">
+<h3 style="text-align: center; color: white; margin-top: 100px;">Compila il form per un appuntamento</h3>
 <form style="display: flex; justify-content: center;">	
     <table>		
           <tr>			
               <td style="color: white;">				
-                  Nome:		
+             	
               </td>			
                <td>				
                   <input type=”text” name=”Nome” placeholder="Nome">			
@@ -239,7 +277,7 @@
           </tr>
            <tr>
                 <td style="color: white;">				
-                  E-mail: 	
+                	
                 </td>			
                 <td>				
                  <input type=”text” name=”E-mail” placeholder="E-mail">			
@@ -257,7 +295,7 @@
 </div>
 </div>
 
-<footer style="margin-top: 40px;display: flex; justify-content: center; width: 100%; height: 50px; background-color: darkslategray;margin-bottom: -10px;">
+<footer style="display: flex; justify-content: center; width: 100%; height: 50px; background-color: black;margin-bottom: -10px;">
 <p style="text-align: center; color: lightgray;">© Copyright HostMe 2020. All Rights Reserved.</p>
 </footer>
 
