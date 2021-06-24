@@ -28,6 +28,10 @@ flex-direction: column;
 justify-content: center;
 }
 
+#host-me-logo {
+    font-size: 20px;
+}
+
 
 
 li {
@@ -139,7 +143,7 @@ ul {
 
 .telephone-out {
     margin-top: 0;
-    font-size: larger;
+    font-size: 15px;
     opacity: 0;  
     position: relative;
     left: 400px; 
@@ -148,8 +152,7 @@ ul {
 }
 
 .telephone-in {
-    margin-top: 0;
-    font-size: larger;
+   
     opacity: 1;    
     position: relative;;
     left: 0;
@@ -164,7 +167,7 @@ ul {
     height:100%;
     position: fixed;
     bottom: 10px;
-    z-index: 4;
+    z-index: 2;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -202,18 +205,6 @@ ul {
     justify-content: center;
 
 }
-/* 
-#para-chi-siamo {
-
-    margin-top: 100px;
-    font-size: 20px;
-    text-align: newspaper;
-    line-height: 1.6;
-    width:800px;
-    align-self: center;
-
-
-} */
 
 .sliding-para {
    
@@ -269,14 +260,6 @@ transition: 0.3s;
     transition:  0.9s ease-in-out;
 }
 
-
-
-/*#graphic-image-container img:hover {
-    
-    width: 700px;
-    height: 500px;
-    transition:  0.9s ease-in-out;
-}*/
 
 img {
 border-radius: 20px;
@@ -399,16 +382,80 @@ height: 400px;
 
 
   @media only screen and (min-height: 800px) {
-      #chi-siamo {
-          margin-top: 2000px;
+      header {
+          height: 200px;
+      }
+     
+      #host-me-logo {
+          font-size: 60px;
       }
 
+      .side-navbar {
+    
+        background-color: lightcoral;
+        width: 100%;
+        height: 400px;
+        position: fixed;
+        z-index: 4;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        opacity: 0.4;
+        transform:translateY(-172em);
+        transition: 0.5s;
+        margin-left: -1em;
+        margin-bottom: -10px;
+        
+       
+      }
+
+      .side-navbar-active {
+
+        opacity: 1;
+        transform: translatey(-72em);
+        transition: 0.5s;
+        
+    }
+
+
+      #navbar-button {
+          z-index: 5;
+          font-size: 50px;
+      }
+
+      .navbar-button-active {
+       color: rgb(49, 9, 141);
+       z-index: 5;
+      }
+
+      #social-buttons {
+          width: 400px;
+      }
+
+      #instagram-button {
+          font-size: 50px;
+      }
+
+      #facebook-button {
+        font-size: 50px;
+    }
+
+    .telephone-in {
+        font-size: 30px;
+    }
+    .telephone-out {
+        font-size: 30px;
+    }
+
+    #whatsapp-button {
+        font-size: 50px;
+    }
+
       #inizia-button {
-          margin-top: 400px;
+          margin-top: 230px;
+          margin-bottom: 300px;
       }
-      header {
-          height: 50px;
-      }
+     
 
       #inizia {
           width: 150px;
@@ -416,12 +463,13 @@ height: 400px;
       }
 
       #home-h1 {
-          margin-top: 350px;
+          margin-top: 200px;
           font-size: 60px;
           text-align: center;
       }
 
-      #facebook-button {
-          width: 400px;
-      }
+      
+      #chi-siamo {
+        margin-top: 300px;
+    }
     }
