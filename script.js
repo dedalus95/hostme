@@ -45,7 +45,6 @@ function getBigger1(e) {
     const imageBottom = biggerImage1.offsetTop + biggerImage1.height;
     const isHalfShown = getBiggerAt > biggerImage1.offsetTop;
     const isNotScrolledPast = window.scrollY < imageBottom;
-    console.log(isNotScrolledPast);
     
     if (isHalfShown && isNotScrolledPast) {
         biggerImage1.classList.add('active-1');
