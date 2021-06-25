@@ -379,8 +379,7 @@ transition: 0.3s;
     }
 
     #perche-noi-container p {
-        padding-left: 20%; 
-        padding-right: 20%; 
+     
         text-align: justify; 
         font-size: 20px; 
         margin-top: 0px; 
@@ -391,7 +390,7 @@ transition: 0.3s;
 #graphic-image-container {
     margin-top: 0px;
     display: flex;
-    text-align: center;
+    
     justify-content: center;
     margin-bottom: 50px;
 }
@@ -702,7 +701,7 @@ height: 400px;
         #servizi-container h1 {
             
             color: rgb(49, 9, 141);
-            font-size: 180px;
+            font-size: 140px;
             align-self: center;
         }
         
@@ -713,7 +712,7 @@ height: 400px;
         }
         
         #servizi-container p {
-            width: 600px;
+            width: 700px;
             font-size: 70px;
             margin-top: -7px;
             text-align:center;
@@ -783,7 +782,7 @@ height: 400px;
 
         #gestione-completa-h2 {
             margin-bottom: 200px;
-            font-size: 120px;
+            font-size: 80px;
         }
         
         .div-row h2{
@@ -797,14 +796,13 @@ height: 400px;
             font-size: 60px;
             text-align: center;
             margin-bottom: 200px;        
-            width: 80%;
             align-self: center;
+            width: 700px;
         
         }
 
+    
        
-
-
         .get-bigger-1 {
             width: 320px;
             height: 400px;
