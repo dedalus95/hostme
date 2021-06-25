@@ -109,7 +109,6 @@ function getBigger1(e) {
         stopScrolling.classList.remove('stop-scrolling');
     }
 
-    
    }
   menuButton.addEventListener('click', showMenu);
  

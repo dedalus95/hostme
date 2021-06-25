@@ -593,7 +593,7 @@ height: 400px;
         
         #social-buttons {
             flex-direction: row;
-            margin-top: 300px;
+            margin-top: 200px;
             width: 400px;
             justify-content: space-between;
         }
@@ -718,6 +718,10 @@ height: 400px;
             text-align:center;
         }
 
+        #servizi-container i {
+            margin-top: 300px;
+        }
+
         #dollar-icon {
             margin-top: 70px;
             font-size: 100px;
@@ -801,6 +805,11 @@ height: 400px;
         
         }
 
+        #perche-noi-container i{
+            margin-top: 150px;
+            font-size: 100px;
+            margin-bottom: 100px;
+        }
     
        
         .get-bigger-1 {
@@ -819,20 +828,25 @@ height: 400px;
         }
         
         #flats-photographs-container {
-            margin-bottom: 150px;
+            background-color: lightcoral;
+            margin-top: -30px;
+            padding-bottom: 190px;
         }
-        
-        #flats-photographs-container div {
-            
-            display: flex;
-            justify-content: center;
-            margin: 30px;
+
+        #flats-photographs-container h1{
+          color:rgb(49, 9, 141);
+          margin-bottom: 70px; 
+          text-align: center;
+          padding-top: 200px;
+          font-size: 40px;
+         
         }
+
+
         
         #collaboriamo-con {
-            display: flex;
-            justify-content: center;
-           
+            
+        background-color: rgb(49, 9, 141);
         }
         
         #logo-container {
@@ -840,15 +854,16 @@ height: 400px;
             flex-direction: row;
             justify-content:  center;
             margin-top: 80px;
+           
         }
         
         #logo-container img {
-           
             width: 130px;
             height: 50px;
             border: none;
             margin-left: 15px;
             margin-right: 15px;
+            background-color: white;
         }
         
         #tariffa {
