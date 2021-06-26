@@ -1018,42 +1018,80 @@ height: 400px;
         #bottom-container {
             display: flex;
             flex-direction: column;
-            height: 100%;
+            padding-bottom: 100px;
            
             
         }
         
         #bottom-1 {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            height: 300px;
+            padding-top: 100px;
+            padding-bottom: 200px;
             width: 100%;
         }
+
         
+
+        #bottom-1 h1 {
+            font-size: 100px;
+            align-self: center;
+            margin-top: 100px;
+        }
         
+        #bottom-1 p {
+            font-size: 40px;
+            align-self: center;
+            width: 700px;
+            text-align: center;
+
+        }
             
             #contatti {
                 width: 100%;
                 padding-bottom: 100px;
             }
 
-            #bottom-form {
-                width: 100%;
+            #contatti h1 {
+                font-size: 60px;
             }
 
-            #bottom-container h1 {
-                font-size: 20px;
+            #contatti p {
+                font-size: 30px;
             }
-            #bottom-container form {
-                font-size: 10px;
+
+            #contatti a{
+                font-size: 50px;
+                margin: 40px;
             }
+
+
+            #bottom-form {
+                width: 100%;
+                padding-bottom: 100px;
+            }
+
+            #bottom-form input {
+                width: 200px;
+                height: 20px;
+                text-align: left;
+                margin-bottom: 40px;
+            }
+
+            #bottom-form h3 {
+               font-size: 60px;
+            }
+
+            #commento-input {
+                
+                height: 100px;
+                width: 350px;
+                text-align: left;
+            }
+        
             
-            #bottom-container p {
-                font-size: 14px;
-            }
-        
-            #bottom-container h3 {
-                font-size: 14px;
-            }
-        
-        
         }
         
 /* 
