@@ -55,11 +55,12 @@ li {
 ul {
     margin-top: 0px;
     font-size: 20px;
+    color: rgb(49, 9, 141);
     }
 
  a {
     text-decoration: none;
-    color: white;    
+    color:rgb(49, 9, 141);    
     }
 
 
@@ -149,7 +150,8 @@ ul {
     display: flex;
     justify-content: left;
     flex-direction: column;
-    margin-top: 110px;
+    margin-top: 0;
+    margin-left: 20px;
     }
 
 
@@ -279,6 +281,13 @@ transition: 0.3s;
     text-align: center;
     }
 
+#perche-noi-container p{
+      width: 700px;
+      margin-top: 0;
+        }
+
+        
+
   #dollar-icon {
     height: 30px; 
     margin-bottom: 10px;
@@ -305,7 +314,7 @@ transition: 0.3s;
 
   #camera-icon {
     height: 30px; 
-    margin-bottom: 10px;
+    margin-bottom:10px;
     }
 
   .first-two-divs {
@@ -320,37 +329,37 @@ transition: 0.3s;
 
   #first-h2 {
    
-    text-align:left; 
+    text-align:center; 
     margin-bottom: 100px;
     }
 
   #wrench-icon {
     height: 30px; 
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     }
 
 
   #search-icon {
     height: 30px; 
-    margin-bottom: 10px; 
+    margin-bottom: 30px; 
     margin-right: 15px;
     }
 
   #laptop-icon {
     height: 30px; 
-    margin-bottom: 10px; 
+    margin-bottom: 30px; 
     margin-right: 15px;
     }
 
   #lock-icon {
     height: 30px;
     margin-right: 15px;
+    margin-bottom: 30px;
     }
 
     #money-icon {
     height: 30px; 
-    margin-top: 100px; 
-    margin-bottom: 10px; 
+    margin-bottom: 30px; 
 
         }
 
@@ -380,7 +389,7 @@ transition: 0.3s;
 
     #perche-noi-container p {
      
-        text-align: justify; 
+        text-align: center; 
         font-size: 20px; 
         margin-top: 0px; 
         
@@ -399,6 +408,8 @@ transition: 0.3s;
     
     transition:  0.9s ease-in-out;
 }
+
+
 
 
 img {
@@ -440,6 +451,12 @@ height: 400px;
 
 #flats-photographs-container {
     margin-bottom: 150px;
+    margin-top: 100px;
+}
+
+#flats-photographs-container h1{
+    text-align: center;
+    color: lightcoral;
 }
 
 #flats-photographs-container div {
@@ -460,6 +477,7 @@ height: 400px;
     flex-direction: row;
     justify-content:  center;
     margin-top: 80px;
+    width: 80%;
 }
 
 #logo-container img {
@@ -469,16 +487,33 @@ height: 400px;
     border: none;
     margin-left: 15px;
     margin-right: 15px;
+    margin-bottom: 150px;
+    background-color: white;
+    
 }
 
 #tariffa {
-    width: 100%;
-    height: 800px;
-    margin-bottom: 200px;
-    margin-top: 0px;
+    color: lightcoral;
+    font-size: x-large;
     display: flex;
-    justify-content:center;
     flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#tariffa h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#tariffa h2 {
+    text-align: center;
+}
+
+
+#tariffa p {
+    text-align: center;
+    width: 500px;
     align-self: center;
 }
 
@@ -490,13 +525,33 @@ height: 400px;
     
 }
 
+#bottom-1 {
+    color: white; 
+    background-color: darkslategray; 
+    width: 33.33333%; 
+    height: 400px; 
+    display: flex; 
+    justify-content: center;
+}
+
 
     #hostme-bottom {
         width: 20px;
         position: relative;
         top:10px;
+        width: 200px; 
+        text-align: center; 
+        margin-top: 81px;
     }
     
+    #hostme-bottom h1 {
+        text-align: center;
+    }
+
+    #hostme-bottom p {
+        text-align: center;
+    }
+
     #bottom-container h1 {
         font-size: 20px;
     }
@@ -513,6 +568,81 @@ height: 400px;
     }
 
 
+    #contatti {
+        color: white; 
+        background-color: darkslategray; 
+        width: 33.33333%; 
+        text-align: center;
+        padding-top: 91px;
+    }
+
+    #contatti-h1 {
+        text-align: center;
+        display: flex; 
+        flex-direction: row; 
+        justify-content: center;
+    }
+
+    #contatti-p {
+        text-align: center;
+       
+    }
+
+
+
+    #social-buttons-contatti {
+        margin-top: 40px; 
+        display: flex; 
+        flex-direction: row; 
+        justify-content: center;
+        
+    }
+
+    #social-buttons-contatti a{
+       color: white;
+        
+    }
+
+
+    #bottom-form {
+        background-color: darkslategray; 
+        width: 33.3333%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #bottom-form h3 {
+        align-self: center;
+        text-align: center; 
+        color: white; 
+        margin-top: 55px;
+    }
+
+
+    form {
+        align-self: center;
+    }
+
+    #bottom-form button {
+        margin-top: 10px;
+        align-self: center;
+    }
+   
+    footer {
+        display: flex; 
+        justify-content: center; 
+        width: 100%; 
+        height: 50px; 
+        background-color: black;
+        margin-bottom: -10px;
+    }
+
+    footer p {
+        text-align: center; 
+        color: lightgray;
+    }
 
 
 
@@ -537,7 +667,12 @@ height: 400px;
 
 
    
-       
+       body {
+           margin: 0;
+           padding: 0;
+       }
+
+
         header {
             
             height: 300px;
@@ -703,12 +838,14 @@ height: 400px;
             color: rgb(49, 9, 141);
             font-size: 140px;
             align-self: center;
+            margin-bottom: 0;
         }
         
         #servizi-container h2 {
             font-size: 120px;
             align-self: center;
             margin-top: 80px;
+            margin-bottom: 30px;
         }
         
         #servizi-container p {
@@ -719,7 +856,7 @@ height: 400px;
         }
 
         #servizi-container i {
-            margin-top: 300px;
+            margin-top: 150px;
         }
 
         #dollar-icon {
@@ -785,21 +922,21 @@ height: 400px;
         }
 
         #gestione-completa-h2 {
-            margin-bottom: 200px;
+            margin-bottom: 100px;
             font-size: 80px;
         }
         
         .div-row h2{
 
-            font-size: 120px;
-            margin-bottom: 0;
+            font-size: 80px;
+            margin-bottom: 30px;
         }
        
         
         #perche-noi-container p{
-            font-size: 60px;
+            font-size: 40px;
             text-align: center;
-            margin-bottom: 200px;        
+            margin-bottom: 100px;        
             align-self: center;
             width: 700px;
         
@@ -880,19 +1017,27 @@ height: 400px;
         
         #bottom-container {
             display: flex;
-            flex-direction: row;
-            width: 100%;
-            height: 400px;
+            flex-direction: column;
+            height: 100%;
+           
             
         }
         
+        #bottom-1 {
+            width: 100%;
+        }
         
-            #hostme-bottom {
-                width: 20px;
-                position: relative;
-                top:10px;
-            }
+        
             
+            #contatti {
+                width: 100%;
+                padding-bottom: 100px;
+            }
+
+            #bottom-form {
+                width: 100%;
+            }
+
             #bottom-container h1 {
                 font-size: 20px;
             }
