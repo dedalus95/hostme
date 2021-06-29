@@ -80,7 +80,7 @@ function getBigger1(e) {
    let menu = document.getElementById('#menu') 
 
    let stopScrolling = document.querySelector('body');
-   function showMenu() {
+   function showMenu(e) {
       
     if (!menu.classList.contains('side-navbar-active'))
     {
@@ -89,24 +89,39 @@ function getBigger1(e) {
         menuButton.classList.add('fa-times');
         stopScrolling.classList.add('stop-scrolling');
    }
-  
-   
-   else {
-        menu.classList.remove('side-navbar-active');
-        menuButton.classList.remove('fa-times');
-        menuButton.classList.add('fa-bars');
-        stopScrolling.classList.remove('stop-scrolling');
-    
-    }
+
+  else {
+    menu.classList.remove('side-navbar-active');
+    menuButton.classList.remove('fa-times');
+    menuButton.classList.add('fa-bars');
+    stopScrolling.classList.remove('stop-scrolling');
    }
 
+   }
+
+menuButton.addEventListener('click', showMenu);
+
+// function closeMenu {
 
     
+//        if ( menu.classList.contains('side-navbar-active'))
+       
+  
+// }
+
+
    
-  menuButton.addEventListener('click', showMenu);
+
+
+
+   
+   
+    
+   
+ 
   
 
-
+  
 
    
 
