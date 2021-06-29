@@ -85,32 +85,32 @@ function getBigger1(e) {
     if (!menu.classList.contains('side-navbar-active'))
     {
         menu.classList.add('side-navbar-active');
+        menuButton.classList.remove('fa-bars');
+        menuButton.classList.add('fa-times');
+        stopScrolling.classList.add('stop-scrolling');
    }
   
    
    else {
         menu.classList.remove('side-navbar-active');
-    
-    }
-    if (
-        menu.classList.contains('side-navbar-active')
-    ) 
-  
-    {   
-        menuButton.classList.remove('fa-bars');
-        menuButton.classList.add('fa-times');
-        stopScrolling.classList.add('stop-scrolling');
-       
-    }
-
-    else {
         menuButton.classList.remove('fa-times');
         menuButton.classList.add('fa-bars');
         stopScrolling.classList.remove('stop-scrolling');
+    
     }
-
    }
+
+
+    
+   
   menuButton.addEventListener('click', showMenu);
+  
+
+
+
+   
+
+
  
 
 
