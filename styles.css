@@ -2,8 +2,8 @@
 
 html {
     background-color: white;
-    font-family: 'B612', Helvetica, Arial, sans-serif;
-    color: rgb(49, 9, 141);
+    font-family: Helvetica, Arial, sans-serif;
+    color: black;
     margin: 0;
     padding: 0;
 
@@ -23,7 +23,7 @@ header {
     width: 100%;
     height: 100px;
     position: fixed;
-    background-color: rgb(49, 9, 141); 
+    background-color: black; 
     width: 100%; 
     margin-top: -8px;
     right: 0em;
@@ -55,12 +55,12 @@ li {
 ul {
     margin-top: 0px;
     font-size: 20px;
-    color: rgb(49, 9, 141);
+    color: white;
     }
 
  a {
     text-decoration: none;
-    color:rgb(49, 9, 141);    
+    color:white;    
     }
 
 
@@ -127,19 +127,19 @@ ul {
         }
 
 #inizia {
-    background-color:rgb(49, 9, 141) ;
+    background-color:black ;
     margin-top: 50px;
     margin-bottom: 100px;
     width:100px;
     height: 30px;
-    color: lightcoral;
+    color: white;
     border-radius:0px;
     border:none;
     cursor: pointer;
     }
 
 #inizia:hover {
-    background-color:rgb(68, 75, 173) ;
+    background-color:rgb(49, 50, 54) ;
     transition: 0.4s;
     }
 
@@ -176,7 +176,7 @@ ul {
 
 .side-navbar {
     
-    background-color: lightcoral;
+    background-color: black;
     width: 250px;
     height:100%;
     position: fixed;
@@ -214,10 +214,14 @@ ul {
     justify-content: center;
     width: 100%;
     text-align: center;
+    background-color: black;
+    margin-top: 200px;
+    padding-bottom: 150px;
     }
 #chi-siamo-title {
     display: flex;
     justify-content: center;
+    color: white;
 
     }
 
@@ -227,6 +231,7 @@ ul {
     display: flex;
     flex-direction: column;
     font-size: 20px;
+    color: white;
     }
 
 #chi-siamo p {
@@ -263,7 +268,7 @@ transition: 0.3s;
 
 #servizi-container h1 {
     
-    color: lightcoral;
+    color: black;
     }
 
 
@@ -279,11 +284,20 @@ transition: 0.3s;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    background-color: black;
+    color: white;
+    padding-bottom: 150px;
     }
+
+#perche-noi-container h1 {
+    color: white;
+    margin-top: 200px;
+}
 
 #perche-noi-container p{
       width: 700px;
       margin-top: 0;
+      color: white;
         }
 
         
@@ -324,7 +338,7 @@ transition: 0.3s;
 
   #first-h1 {
     margin-bottom: 70px; 
-    color: lightcoral;
+    color: black;
     }
 
   #first-h2 {
@@ -456,7 +470,7 @@ height: 400px;
 
 #flats-photographs-container h1{
     text-align: center;
-    color: lightcoral;
+    color: black;
 }
 
 #flats-photographs-container div {
@@ -493,7 +507,7 @@ height: 400px;
 }
 
 #tariffa {
-    color: lightcoral;
+    color: black;
     font-size: x-large;
     display: flex;
     flex-direction: column;
@@ -527,7 +541,7 @@ height: 400px;
 
 #bottom-1 {
     color: white; 
-    background-color: darkslategray; 
+    background-color: black; 
     width: 100%;
     height: 400px; 
     display: flex; 
@@ -550,7 +564,7 @@ height: 400px;
 
     #contatti {
         color: white; 
-        background-color: darkslategray; 
+        background-color: black; 
         width: 100%;
         text-align: center;
         padding-top: 91px;
@@ -586,7 +600,7 @@ height: 400px;
 
 
     #bottom-form {
-        background-color: darkslategray; 
+        background-color: black; 
         width: 100%;
         height: 400px;
         display: flex;
@@ -617,13 +631,13 @@ height: 400px;
         justify-content: center; 
         width: 100%; 
         height: 50px; 
-        background-color: black;
+        background-color: grey;
         margin-bottom: -10px;
     }
 
     footer p {
         text-align: center; 
-        color: lightgray;
+        color: black;
     }
 
 
@@ -692,7 +706,7 @@ height: 400px;
         
          a {
             text-decoration: none;
-            color: rgb(49, 9, 141);    
+            color: white;    
          }
         
         
@@ -778,21 +792,23 @@ height: 400px;
             
             width: 100%;
             text-align: center;
-            background-color: rgb(49, 9, 141);
+            background-color: black;
             margin-top: 80px;
         }
 
+       
 
         #chi-siamo-title {
             display: flex;
             justify-content: center;
             font-size: 80px;
+            color: white;
         }
         
         #chi-siamo-para {
             width: 900px;
             align-self: center;
-            color: lightcoral;
+            color: white;
             font-size: 50px;
             
         }
@@ -822,13 +838,13 @@ height: 400px;
         
         
         #servizi-container {
-        background-color: lightcoral;
+        background-color: white;
             
         }
         
         #servizi-container h1 {
             
-            color: rgb(49, 9, 141);
+            color: black;
             font-size: 140px;
             align-self: center;
             margin-bottom: 0;
@@ -884,8 +900,8 @@ height: 400px;
 
         
         #perche-noi-container {
-            background-color: rgb(49, 9, 141);
-            color: lightcoral;
+            background-color: black;
+            color: white;
         
         }
         
@@ -940,6 +956,10 @@ height: 400px;
             font-size: 100px;
             margin-bottom: 100px;
         }
+
+        #perche-noi-container h1 {
+            color: white;
+        }
     
        
         .get-bigger-1 {
@@ -958,14 +978,14 @@ height: 400px;
         }
         
         #flats-photographs-container {
-            background-color: lightcoral;
+            background-color: white;
             margin-top: -30px;
             padding-bottom: 100px;
             margin-bottom: -50px;
         }
 
         #flats-photographs-container h1{
-          color:rgb(49, 9, 141);
+          color: black;
           margin-bottom: 70px; 
           text-align: center;
           padding-top: 100px;
@@ -1138,7 +1158,7 @@ height: 400px;
      
       a {
          text-decoration: none;
-         color: rgb(49, 9, 141);    
+         color: white;    
       }
      
      
@@ -1224,7 +1244,7 @@ height: 400px;
          
          width: 100%;
          text-align: center;
-         background-color: rgb(49, 9, 141);
+         background-color: black;
          margin-top: 80px;
      }
 
@@ -1238,7 +1258,7 @@ height: 400px;
      #chi-siamo-para {
          width: 900px;
          align-self: center;
-         color: lightcoral;
+         color: white;
          font-size: 50px;
          
      }
@@ -1268,13 +1288,13 @@ height: 400px;
      
      
      #servizi-container {
-     background-color: lightcoral;
+     background-color: white;
          
      }
      
      #servizi-container h1 {
          
-         color: rgb(49, 9, 141);
+         color: black;
          font-size: 140px;
          align-self: center;
          margin-bottom: 0;
@@ -1330,8 +1350,8 @@ height: 400px;
 
      
      #perche-noi-container {
-         background-color: rgb(49, 9, 141);
-         color: lightcoral;
+         background-color: black;
+         color: white;
      
      }
      
@@ -1404,14 +1424,14 @@ height: 400px;
      }
      
      #flats-photographs-container {
-         background-color: lightcoral;
+         background-color: white;
          margin-top: -30px;
          padding-bottom: 100px;
          margin-bottom: -50px;
      }
 
      #flats-photographs-container h1{
-       color:rgb(49, 9, 141);
+       color:black;
        margin-bottom: 70px; 
        text-align: center;
        padding-top: 100px;
@@ -1585,7 +1605,7 @@ height: 400px;
          
           a {
              text-decoration: none;
-             color: rgb(49, 9, 141);    
+             color: white;    
           }
          
          
@@ -1671,8 +1691,12 @@ height: 400px;
              
              width: 100%;
              text-align: center;
-             background-color: rgb(49, 9, 141);
+             background-color: black;
              margin-top: 80px;
+         }
+
+         #chi-siamo h1 {
+             color: white;
          }
     
     
@@ -1685,7 +1709,7 @@ height: 400px;
          #chi-siamo-para {
              width: 900px;
              align-self: center;
-             color: lightcoral;
+             color: white;
              font-size: 50px;
              
          }
@@ -1715,13 +1739,13 @@ height: 400px;
          
          
          #servizi-container {
-         background-color: lightcoral;
+         background-color: white;
              
          }
          
          #servizi-container h1 {
              
-             color: rgb(49, 9, 141);
+             color: black;
              font-size: 140px;
              align-self: center;
              margin-bottom: 0;
@@ -1777,13 +1801,14 @@ height: 400px;
     
          
          #perche-noi-container {
-             background-color: rgb(49, 9, 141);
-             color: lightcoral;
+             background-color: black;
+             color: white;
          
          }
          
          #first-h1 {
              font-size: 180px;
+             color: white;
          }
     
          .first-two-divs {
@@ -1851,14 +1876,14 @@ height: 400px;
          }
          
          #flats-photographs-container {
-             background-color: lightcoral;
+             background-color: white;
              margin-top: -30px;
              padding-bottom: 100px;
              margin-bottom: -50px;
          }
     
          #flats-photographs-container h1{
-           color:rgb(49, 9, 141);
+           color:black;
            margin-bottom: 70px; 
            text-align: center;
            padding-top: 100px;
@@ -2028,7 +2053,7 @@ height: 400px;
          
           a {
              text-decoration: none;
-             color: rgb(49, 9, 141);    
+             color: white;    
           }
          
          
@@ -2114,7 +2139,7 @@ height: 400px;
              
              width: 100%;
              text-align: center;
-             background-color: rgb(49, 9, 141);
+             background-color: black;
              margin-top: 80px;
          }
     
@@ -2123,12 +2148,13 @@ height: 400px;
              display: flex;
              justify-content: center;
              font-size: 80px;
+             color: white;
          }
          
          #chi-siamo-para {
              width: 900px;
              align-self: center;
-             color: lightcoral;
+             color: white;
              font-size: 50px;
              
          }
@@ -2158,13 +2184,13 @@ height: 400px;
          
          
          #servizi-container {
-         background-color: lightcoral;
+         background-color: white;
              
          }
          
          #servizi-container h1 {
              
-             color: rgb(49, 9, 141);
+             color: black;
              font-size: 140px;
              align-self: center;
              margin-bottom: 0;
@@ -2220,13 +2246,14 @@ height: 400px;
     
          
          #perche-noi-container {
-             background-color: rgb(49, 9, 141);
-             color: lightcoral;
+             background-color: black;
+             color: white;
          
          }
          
          #first-h1 {
              font-size: 180px;
+             color: white
          }
     
          .first-two-divs {
@@ -2294,14 +2321,14 @@ height: 400px;
          }
          
          #flats-photographs-container {
-             background-color: lightcoral;
+             background-color: white;
              margin-top: -30px;
              padding-bottom: 100px;
              margin-bottom: -50px;
          }
     
          #flats-photographs-container h1{
-           color:rgb(49, 9, 141);
+           color:black;
            margin-bottom: 70px; 
            text-align: center;
            padding-top: 100px;
@@ -2313,7 +2340,7 @@ height: 400px;
          
          #collaboriamo-con {
              
-         background-color: rgb(49, 9, 141);
+         background-color: white;
          }
          
          #logo-container {
@@ -2475,7 +2502,7 @@ height: 400px;
              
               a {
                  text-decoration: none;
-                 color: rgb(49, 9, 141);    
+                 color: white;    
               }
              
              
@@ -2561,7 +2588,7 @@ height: 400px;
                  
                  width: 100%;
                  text-align: center;
-                 background-color: rgb(49, 9, 141);
+                 background-color: black;
                  margin-top: 80px;
              }
         
@@ -2570,12 +2597,13 @@ height: 400px;
                  display: flex;
                  justify-content: center;
                  font-size: 80px;
+                 color: white;
              }
              
              #chi-siamo-para {
                  width: 900px;
                  align-self: center;
-                 color: lightcoral;
+                 color: white;
                  font-size: 50px;
                  
              }
@@ -2605,13 +2633,13 @@ height: 400px;
              
              
              #servizi-container {
-             background-color: lightcoral;
+             background-color: white;
                  
              }
              
              #servizi-container h1 {
                  
-                 color: rgb(49, 9, 141);
+                 color: black;
                  font-size: 140px;
                  align-self: center;
                  margin-bottom: 0;
@@ -2667,13 +2695,14 @@ height: 400px;
         
              
              #perche-noi-container {
-                 background-color: rgb(49, 9, 141);
-                 color: lightcoral;
+                 background-color: black;
+                 color: white;
              
              }
              
              #first-h1 {
                  font-size: 180px;
+                 color: white;
              }
         
              .first-two-divs {
@@ -2741,14 +2770,14 @@ height: 400px;
              }
              
              #flats-photographs-container {
-                 background-color: lightcoral;
+                 background-color: white;
                  margin-top: -30px;
                  padding-bottom: 100px;
                  margin-bottom: -50px;
              }
         
              #flats-photographs-container h1{
-               color:rgb(49, 9, 141);
+               color:black;
                margin-bottom: 70px; 
                text-align: center;
                padding-top: 100px;
@@ -2760,7 +2789,7 @@ height: 400px;
              
              #collaboriamo-con {
                  
-             background-color: rgb(49, 9, 141);
+             background-color: white;
              }
              
              #logo-container {
@@ -2916,7 +2945,7 @@ height: 400px;
                  
                   a {
                      text-decoration: none;
-                     color: rgb(49, 9, 141);    
+                     color: white;    
                   }
                  
                  
@@ -3002,7 +3031,7 @@ height: 400px;
                      
                      width: 100%;
                      text-align: center;
-                     background-color: rgb(49, 9, 141);
+                     background-color: black;
                      margin-top: 80px;
                  }
             
@@ -3016,7 +3045,7 @@ height: 400px;
                  #chi-siamo-para {
                      width: 900px;
                      align-self: center;
-                     color: lightcoral;
+                     color: white;
                      font-size: 50px;
                      
                  }
@@ -3046,13 +3075,13 @@ height: 400px;
                  
                  
                  #servizi-container {
-                 background-color: lightcoral;
+                 background-color: white;
                      
                  }
                  
                  #servizi-container h1 {
                      
-                     color: rgb(49, 9, 141);
+                     color: black;
                      font-size: 140px;
                      align-self: center;
                      margin-bottom: 0;
@@ -3108,8 +3137,8 @@ height: 400px;
             
                  
                  #perche-noi-container {
-                     background-color: rgb(49, 9, 141);
-                     color: lightcoral;
+                     background-color: black;
+                     color: white;
                  
                  }
                  
@@ -3182,14 +3211,14 @@ height: 400px;
                  }
                  
                  #flats-photographs-container {
-                     background-color: lightcoral;
+                     background-color: white;
                      margin-top: -30px;
                      padding-bottom: 100px;
                      margin-bottom: -50px;
                  }
             
                  #flats-photographs-container h1{
-                   color:rgb(49, 9, 141);
+                   color:black;
                    margin-bottom: 70px; 
                    text-align: center;
                    padding-top: 100px;
@@ -3198,11 +3227,7 @@ height: 400px;
                  }
             
             
-                 
-                 #collaboriamo-con {
-                     
-                 background-color: rgb(49, 9, 141);
-                 }
+                
                  
                  #logo-container {
                      display: flex;
